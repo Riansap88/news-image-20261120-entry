@@ -2,9 +2,11 @@
 """news-image-20261120 entry: write the broadsheet image to /output/entry.png.
 
 The image (a 1024x1024 PNG summing up Friday 20 November 2026's world news)
-is held in this repository as entry.png. This program only copies those exact
-bytes to /output/entry.png. Standard library only, no network, deterministic:
-two runs write identical bytes.
+is held in this repository as entry.png. The broadsheet is THE WORLD TODAY:
+26 real stories, six leads marked on a world map, plus a markets strip.
+This program only copies those exact bytes to /output/entry.png.
+Standard library only, no network, deterministic: two runs write
+identical bytes.
 """
 import hashlib
 import os
